@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*For the reservation button,
+I offer links to the button in different colors,
+as well as a color code for a simple module color change 
+*/
+
+/*Faint Purple/MAIN --> https://i.postimg.cc/gcNMMqRL/reservation-btn.png --> #6370B3 and if you want hover --> #7d8ddd*/
+/*Dark Blue --> https://i.postimg.cc/FsmFRhdp/reservation-btn.png --> #0039CA and if you want hover --> #3b72ff*/
+/*Peach --> https://i.postimg.cc/DZKHgwKY/reservation-btn.png --> #F1946C and if you want hover --> #ffc2a8*/
+/*Light Green --> https://i.postimg.cc/jdk11Xbf/reservation-btn.png --> #36CA33 and if you want hover --> #82ff80*/
+/*Oxblood --> https://i.postimg.cc/gJQDDMRc/reservation-btn.png --> #4A0404 and if you want hover --> #8a0b0b*/
+
+/*But you can easily create your own colors*/
+
+.reservation-btn {
+    background-image: url('https://i.postimg.cc/gcNMMqRL/reservation-btn.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 80px;
+    height: 80px;
+    background-color: inherit !important;
+    border: none !important;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    margin: 2rem;
+}
+
+.btn-primary {
+    background-color: #6370B3 !important;
+    border: 1px solid #6370B3 !important;
+}
+
+.btn-primary:hover {
+    background-color: #7d8ddd !important;
+    border: 1px solid #7d8ddd !important;
+}
+
+.services .btn-primary {
+    text-align: center;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.modal-header {
+    color: black;
+}
+
+.btn-light {
+    background-color: inherit !important;
+    border: none !important;
+    padding: 7px !important;
+    margin-right: 10px !important;
+
+}
+
+.arrow {
+    width: 1.5em;
+    height: 1.5em;
+    opacity: 0.5;
+    border-radius: .375rem;
+}
+
+.arrow:hover {
+    color: #000;
+    opacity: 0.75;
+}
+
+.col-12 {
+    text-align: center;
+}
+
+.date-time {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.rmdp-week-day {
+    color: #6370B3 !important;
+}
+
+.rmdp-today span {
+    background-color: inherit !important;
+}
+
+.rmdp-today span:hover {
+    background-color: #4db6ac !important;
+    color: white !important;
+}
+
+.rmdp-selected .sd {
+    background-color: #6370B3 !important;
+}
+
+.rmdp-arrow-container:hover {
+    background-color: #6370B3 !important;
+}
+
+.rmdp-header-values span {
+    color: #000 !important;
+}
+
+.modal-body p.error-m {
+    padding: 5px 10px;
+    height: auto;
+    color: red !important;
+}
+
+.service {
+    color: #000;
+    height: auto;
+}
+
+.modal-label {
+    color: #000;
+}
+
+label {
+    color: #000;
+}
+
+.modal-final-msg {
+    color: #000;
+}
+
+.modal-body p {
+    height: auto !important;
+    color: #000 !important;
+}
